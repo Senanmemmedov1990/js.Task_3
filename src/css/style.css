@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/src/image/main-home-rev-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 10px 23px;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.logo img {
+    
+    padding-left: 60px;
+    height: 80px;
+}
+
+.dropdownmenu_home {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.dropdownmenu_home ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdownmenu_home ul li {
+    width: 100%;
+    padding: 0px;
+}
+
+.dropdownmenu_home ul li a {
+    color: white;
+    padding: 10px;
+    font-family: Marcellus, sans-serif;
+}
+
+.dropdownmenu_home ul li a:hover {
+    color: #928e75;
+}
+
+li ul {
+    display: none !important;
+}
+
+li:hover ul {
+    display: block !important;
+}
+
+.dropdownmenu_pages {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.dropdownmenu_pages ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdownmenu_pages ul li {
+    width: 100%;
+    padding: 0px;
+}
+
+.dropdownmenu_pages ul li a {
+    color: white;
+    padding: 10px;
+    font-family: Marcellus, sans-serif;
+}
+
+.dropdownmenu_pages ul li a:hover {
+    color: #928e75;
+}
+
+li ul {
+    display: none !important;
+}
+
+li:hover ul {
+    display: block !important;
+}
+.dropdownmenu_forum {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.dropdownmenu_forum ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdownmenu_forum ul li {
+    width: 100%;
+    padding: 0px;
+}
+
+.dropdownmenu_forum ul li a {
+    color: white;
+    padding: 10px;
+    font-family: Marcellus, sans-serif;
+}
+
+.dropdownmenu_forum ul li a:hover {
+    color: #928e75;
+}
+
+li ul {
+    display: none !important;
+}
+
+li:hover ul {
+    display: block !important;
+}
+.dropdownmenu_portfolio {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.dropdownmenu_portfolio ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdownmenu_portfolio ul li {
+    width: 100%;
+    padding: 0px;
+}
+
+.dropdownmenu_portfolio ul li a {
+    color: white;
+    padding: 10px;
+    font-family: Marcellus, sans-serif;
+}
+
+.dropdownmenu_portfolio ul li a:hover {
+    color: #928e75;
+}
+
+li ul {
+    display: none !important;
+}
+
+li:hover ul {
+    display: block !important;
+}
+.dropdownmenu_portfolio-1{
+    display: none;
+}
+.fas{
+    float: left;
+    margin-right: 10px;
+    padding-top: 3px;
+}
+.dropdownmenu_portfolio ul li:hover .dropdownmenu_portfolio-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 178px;
+    background-color: black;
+}
+.dropdownmenu_portfolio-2{
+    display: none;
+}
+.fas{
+    float: left;
+    margin-right: 10px;
+    padding-top: 3px;
+}
+.dropdownmenu_portfolio ul li:hover .dropdownmenu_portfolio-2{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 178px;
+    background-color: black;
+}
+.dropdownmenu_portfolio-3{
+    display: none;
+}
+.fas{
+    float: left;
+    margin-right: 10px;
+    padding-top: 3px;
+}
+.dropdownmenu_portfolio ul li:hover .dropdownmenu_portfolio-3{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 178px;
+    background-color: black;
+}
+.dropdownmenu_portfolio-4{
+    display: none;
+}
+.fas{
+    float: left;
+    margin-right: 10px;
+    padding-top: 3px;
+}
+.dropdownmenu_portfolio ul li:hover .dropdownmenu_portfolio-4{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 178px;
+    background-color: black;
+}
+.dropdownmenu_blog {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.dropdownmenu_blog ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdownmenu_blog ul li {
+    width: 100%;
+    padding: 0px;
+}
+
+.dropdownmenu_blog ul li a {
+    color: white;
+    padding: 10px;
+    font-family: Marcellus, sans-serif;
+}
+
+.dropdownmenu_blog ul li a:hover {
+    color: #928e75;
+}
+
+li ul {
+    display: none !important;
+}
+
+li:hover ul {
+    display: block !important;
+}
+
+.dropdownmenu_blog-1{
+    display: none;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.dropdownmenu_blog ul li:hover .dropdownmenu_blog-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 178px;
+    background-color: black;
+}
+.dropdownmenu_blog-2{
+    display: none;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.dropdownmenu_blog ul li:hover .dropdownmenu_blog-2{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 178px;
+    background-color: black;
+}
+.dropdownmenu_shop {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+.dropdownmenu_shop ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdownmenu_shop ul li {
+    width: 100%;
+    padding: 0px;
+}
+
+.dropdownmenu_shop ul li a {
+    color: white;
+    padding: 10px;
+    font-family: Marcellus, sans-serif;
+}
+
+.dropdownmenu_shop ul li a:hover {
+    color: #928e75;
+}
+
+li ul {
+    display: none !important;
+}
+
+li:hover ul {
+    display: block !important;
+}
+.dropdownmenu_shop-1{
+    display: none;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.dropdownmenu_shop ul li:hover .dropdownmenu_shop-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 178px;
+    background-color: black;
+}
+.dropdownmenu_shop-2{
+    display: none;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.dropdownmenu_shop ul li:hover .dropdownmenu_shop-2{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 178px;
+    background-color: black;
+}
+H1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 6rem;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
